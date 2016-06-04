@@ -9,3 +9,14 @@ p {
 	background-color: #eee;
 	box-sizing: border-box;
 }
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #5437C7 url() 0 0 no-repeat;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
