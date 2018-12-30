@@ -1,0 +1,15 @@
+import React, {Component} from 'react';
+
+class NewYear2019 extends Component {
+	render() {
+		const newYear2019data = new Date(2019, 0, 1, 0, 0, 0, 0);
+		const newYearText = 'Happy New Year!';
+		const defaultText = 'New Year is still comming';
+		
+		return (
+			<h1>{Date.now() >= newYear2019data ? newYearText : defaultText}</h1>
+		);
+	}
+}
+
+export default NewYear2019;
